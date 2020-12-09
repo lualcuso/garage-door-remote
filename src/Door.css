@@ -1,0 +1,33 @@
+.door-container {
+    display: flex;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.door-container:first-child {
+    padding-bottom: 10px;
+}
+
+.door-visualization, .door-information {
+    width: 50%;
+}
+
+.door-visualization {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.gate {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    transition: height 1s;
+}
+
+.gate.open {
+    height: 0%;
+}
+
+.door-information {
+    margin-top: 25%;
+}
